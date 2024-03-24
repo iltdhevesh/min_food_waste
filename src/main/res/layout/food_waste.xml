@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/your_background_image"
+    android:padding="16dp"
+    tools:context=".foodwaste">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <Button
+            android:id="@+id/btnMakeItYourself"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Make it yourself (chat)"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/btnBookAgent"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Book agent"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</RelativeLayout>

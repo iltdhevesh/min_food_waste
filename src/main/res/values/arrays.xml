@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="food_types">
+        <item>Food waste-Sell</item>
+        <item>Food waste-Convert and get </item>
+        <item>Excess food</item>
+    </string-array>
+    <string-array name="fertilizer_options">
+    <item>500g - Rs 200</item>
+    <item>1Kg - Rs 350</item>
+    <item>2Kg - Rs 650</item>
+    <item>5Kg - Rs 1300</item>
+</string-array>
+    <array name="payment_options">
+        <item>Cash on Delivery</item>
+        <item>UPI Payment</item>
+    </array>
+</resources>
+

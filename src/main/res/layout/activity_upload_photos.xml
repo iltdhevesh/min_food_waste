@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".UploadPhotosActivity">
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewUploadMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload 4 photos of your resource"
+        android:layout_below="@+id/btnUpload"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Name (required)"
+        android:layout_below="@+id/textViewUploadMessage"
+        android:layout_marginTop="16dp"/>
+
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Number (required)"
+        android:layout_below="@+id/editTextName"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:id="@+id/select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Your Choice:-\n\n
+1)Food waste-Sell: You get money according to your food waste.(10-100)\n
+2)Food waste-Convert and get: Your food waste is converted and given to you. You will be charged certain amount.(50-100)\n
+3)Excess food: your leftovers will be delivered.(No charges)"
+        android:layout_below="@+id/editTextNumber"
+        android:layout_marginTop="16dp"/>
+    <Spinner
+        android:id="@+id/spinnerFoodType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select"
+        android:layout_marginTop="16dp"/>
+    <Button
+        android:id="@+id/btnLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Current Location"
+        android:layout_below="@+id/spinnerFoodType"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>
